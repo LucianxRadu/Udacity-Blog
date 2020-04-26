@@ -1,0 +1,537 @@
+/* @media (max-width: 599px) */
+/* ------------------------- */
+@media (max-width: 599px) {
+  /* Nav area */
+  .logo a img {
+    width: 100px;
+  }
+
+  .blog-header h2 {
+    font-size: 10px;
+  }
+
+  .nav {
+    grid-template-rows: 10vh;
+    font-size: 0.8rem;
+  }
+
+  .nav ul li {
+    padding-right: 10px;
+  }
+
+  /* blogs area */
+  .main {
+    display: grid;
+    grid-gap: 2vh;
+  }
+
+  .main .blog {
+    margin: 0;
+  }
+
+  .blog-header {
+    grid-template-rows: 8vh;
+  }
+
+  .blog-header #blog-img {
+    height: 100px;
+  }
+
+  .main .blog {
+    grid-template-columns: 70vw;
+    grid-gap: 0;
+  }
+
+  .blog-header h2 {
+    font-size: 0.3em;
+  }
+
+  .blog-preview p {
+    font-size: 0.4em;
+  }
+
+  .main .old-articles {
+    display: grid;
+    grid-template-columns: 50%;
+    font-size: 0.8em;
+  }
+
+  .footer {
+    font-size: 0.6em;
+  }
+
+  .footer p a {
+    margin: 0 5px;
+    justify-content: flex-start;
+  }
+
+  .blog-title {
+    display: grid;
+    grid-template-columns: 10vw 65vw;
+    grid-gap: 5vw;
+  }
+
+  /* Blog pages */
+  /* ----QA---- */
+  .main-qa {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1em;
+  }
+
+  .main-qa .blog-title {
+    font-size: 1em;
+  }
+
+  .main-qa .blog-body {
+    font-size: 1em;
+  }
+
+  /* Blog pages */
+  /* ----SA---- */
+
+  .main-sa {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1em;
+  }
+
+  .main-sa .blog-title {
+    font-size: 1em;
+  }
+
+  .main-sa .blog-body {
+    font-size: 1em;
+  }
+
+  /* Blog pages */
+  /* ----PM---- */
+  .main-pm {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1em;
+  }
+
+  .main-pm .blog-title {
+    font-size: 1em;
+  }
+
+  .main-pm .blog-body {
+    font-size: 1em;
+  }
+
+  /* All blog pages */
+  .old .old-articles {
+    display: grid;
+    grid-template-columns: 50vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 10vh;
+  }
+
+  /* Info page */
+  /* --------- */
+  .bio {
+    grid-template-columns: 80vw;
+  }
+
+  .info-header {
+    font-size: 0.8em;
+  }
+
+  .bio .info-body {
+    display: grid;
+    grid-template-rows: 30vh 1fr;
+    grid-template-columns: 80vw;
+  }
+
+  .info-body img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+
+  /* Contact page */
+  /* ------------ */
+  form {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 40vh;
+  }
+
+  .form ul {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1em;
+  }
+
+  .form ul li {
+    display: grid;
+    grid-template-columns: 70vw;
+    justify-content: center;
+  }
+
+  .contact-header {
+    margin-top: 5vh;
+    font-size: 0.8em;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    margin: 10px auto;
+    height: 30px;
+    box-sizing: border-box;
+  }
+
+  li label {
+    text-align: center;
+  }
+
+  .form .button {
+    display: grid;
+    grid-template-columns: 20vw;
+    margin: 0 auto;
+  }
+}
+
+/* @media (min-width: 600px) and (max-width: 900px) */
+/* ------------------------------------------------ */
+@media (min-width: 600px) and (max-width: 900px) {
+  .nav {
+    grid-template-rows: 10vh;
+    font-size: 1.2em;
+  }
+
+  .nav ul li {
+    padding-right: 15px;
+  }
+
+  .logo a img {
+    width: 200px;
+    height: auto;
+  }
+
+  /* Main blogs */
+  .main .blog {
+    display: grid;
+    grid-template-columns: 70vw;
+    grid-gap: 2vh;
+    margin: 10vh 0;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .blog-header h2 {
+    font-size: 1.2em;
+  }
+
+  .blog-header #blog-img {
+    width: 100%;
+  }
+
+  .qa,
+  .sa,
+  .pm {
+    font-size: 0.7em;
+  }
+
+  .main .old-articles {
+    display: grid;
+    grid-template-columns: 50%;
+    font-size: 1em;
+  }
+
+  .old .old-articles {
+    display: grid;
+    grid-template-columns: 50%;
+    font-size: 1em;
+  }
+
+  .footer {
+    font-size: 0.8em;
+  }
+
+  .footer p a {
+    margin: 0 5px;
+    justify-content: flex-start;
+  }
+
+  /* Blog pages */
+  /* ----QA---- */
+  .main-qa {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1.1em;
+  }
+
+  .blog-title {
+    display: grid;
+    grid-template-columns: 10vw 70vw;
+  }
+
+  .main-qa .blog-title {
+    font-size: 1em;
+  }
+
+  .main-qa .blog-body {
+    font-size: 1em;
+  }
+
+  /* Blog pages */
+  /* ----SA---- */
+  .main-sa {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1.1em;
+  }
+
+  .blog-title {
+    display: grid;
+    grid-template-columns: 10vw 70vw;
+  }
+
+  .main-sa .blog-title {
+    font-size: 1em;
+  }
+
+  .main-sa .blog-body {
+    font-size: 1em;
+  }
+
+  /* Blog pages */
+  /* ----PM---- */
+  .main-pm {
+    display: grid;
+    grid-template-columns: 80vw;
+    font-size: 1.1em;
+  }
+
+  .blog-title {
+    display: grid;
+    grid-template-columns: 10vw 70vw;
+  }
+
+  .main-pm .blog-title {
+    font-size: 1em;
+  }
+
+  .main-pm .blog-body {
+    font-size: 1em;
+  }
+
+  /* Info page */
+  /* --------- */
+  .bio {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-gap: 5vh;
+  }
+
+  .info-header {
+    font-size: 0.8em;
+  }
+
+  .bio .info-body {
+    display: grid;
+    grid-template-rows: 50vh 1fr;
+    grid-template-columns: 80vw;
+  }
+
+  .info-body img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+
+  /* Contact page */
+  /* ------------ */
+  form {
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-template-rows: 40vh;
+  }
+
+  .form ul {
+    display: grid;
+    grid-template-columns: 60vw;
+    font-size: 1em;
+  }
+
+  .form ul li {
+    display: grid;
+    grid-template-columns: 50vw;
+    justify-content: center;
+  }
+
+  .contact-header {
+    margin-top: 5vh;
+    font-size: 0.8em;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    margin: 10px auto;
+    height: 30px;
+    box-sizing: border-box;
+  }
+
+  li label {
+    text-align: center;
+  }
+
+  .form .button {
+    display: grid;
+    grid-template-columns: 20vw;
+    margin: 0 auto;
+  }
+}
+
+/* @media (min-width: 900px) */
+/* ------------------------- */
+@media (min-width: 901px) {
+  .main .blog {
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-gap: 2vh;
+    margin: 10vh 0;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .blog-header h2 {
+    font-size: 1.2em;
+  }
+
+  .blog-header #blog-img {
+    width: 100%;
+  }
+
+  .qa,
+  .sa,
+  .pm {
+    font-size: 0.7em;
+  }
+
+  .main .old-articles {
+    display: grid;
+    grid-template-columns: 50%;
+    font-size: 1em;
+  }
+
+  .old .old-articles {
+    display: grid;
+    grid-template-columns: 50%;
+    font-size: 1em;
+  }
+
+  /* Contact page */
+  /* ------------ */
+  form {
+    display: grid;
+    grid-template-columns: 50vw;
+    grid-template-rows: 40vh;
+  }
+
+  .form ul {
+    display: grid;
+    grid-template-columns: 50vw;
+    font-size: 1em;
+  }
+
+  .form ul li {
+    display: grid;
+    grid-template-columns: 40vw;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    margin: 10px auto;
+    height: 30px;
+    box-sizing: border-box;
+  }
+
+  li label {
+    text-align: center;
+  }
+
+  .form .button {
+    display: grid;
+    grid-template-columns: 20vw;
+    margin: 0 auto;
+  }
+}
+
+/* @media (min-width: 1466px) */
+/* ------------------------- */
+@media (min-width: 1466px) {
+  .main .blog {
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-gap: 2vh;
+    margin: 10vh 0;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+
+  .blog-header {
+    display: grid;
+    grid-template-columns: 1fr 50vw;
+  }
+
+  .blog-preview p {
+    font-size: 1.2em;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: 40vw;
+    grid-template-rows: 40vh;
+  }
+
+  .form ul {
+    display: grid;
+    grid-template-columns: 40vw;
+    font-size: 1em;
+  }
+
+  .form ul li {
+    display: grid;
+    grid-template-columns: 40vw;
+    justify-content: center;
+  }
+
+  /* Main blogs */
+  .blog-header h2 {
+    font-size: 1.5em;
+  }
+
+  .blog-header #blog-img {
+    width: 100%;
+  }
+
+  .qa,
+  .sa,
+  .pm {
+    font-size: 0.7em;
+  }
+
+  .main .old-articles {
+    display: grid;
+    grid-template-columns: 30%;
+    font-size: 1em;
+  }
+
+  .old .old-articles {
+    display: grid;
+    grid-template-columns: 30%;
+    font-size: 1em;
+  }
+}

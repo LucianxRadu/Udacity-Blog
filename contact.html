@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Lucian's Blog</title>
+    <meta name="description" content="Example" />
+    <link href="css/main.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- ᒪᑌᑕᎥᗩᑎ -->
+    <!-- Top container -->
+    <div class="container-top">
+      <!-- Navbar -->
+      <div class="nav">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" /></a>
+        </div>
+        <!-- Navbar butons -->
+        <div class="nav-buttons">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="info.html">Info</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--End container-top-->
+    <div class="container-mid">
+      <div class="contact-header">
+        <h1>Let's get in touch!</h1>
+      </div>
+      <div class="form" id="form">
+        <form action="index.html" method="post">
+          <ul>
+            <li>
+              <label for="name">Name: </label>
+              <input
+                type="text"
+                id="name"
+                name="userName"
+                autocomplete="name"
+              />
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="text" id="email" name="userEmail" />
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea
+                type="text"
+                id="msg"
+                name="userMessage"
+                placeholder="Type your thoughts here..."
+              >
+              </textarea>
+            </li>
+            <li class="button">
+              <button type="submit">Send</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      <!--end form-->
+    </div>
+    <div class="container-bottom">
+      <!-- Footer -->
+      <div class="footer" id="footer">
+        <p>&copy; Lucian</p>
+        <p>
+          <a href="https://www.facebook.com" rel="noopener" target="_blank"
+            >Facebook</a
+          >
+          <a href="https://www.twitter.com">Twitter</a>
+          <a href="https://www.linkedin.com">Linkedin</a>
+        </p>
+      </div>
+    </div>
+    <!--End container-bottom-->
+  </body>
+</html>

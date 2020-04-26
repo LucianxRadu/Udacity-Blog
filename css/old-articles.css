@@ -1,0 +1,29 @@
+.index-list {
+  display: grid;
+  grid-template-columns: 40vw;
+  grid-template-rows: 14vh 50vh;
+  grid-gap: 1vh;
+  grid-template-areas:
+    "index-header"
+    "items";
+  justify-content: center;
+  align-items: center;
+}
+
+.items li {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.items h3 {
+  text-align: center;
+}
+
+.index-header {
+  text-align: center;
+}
+
+.items ul {
+  padding: 0;
+}
